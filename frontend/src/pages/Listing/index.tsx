@@ -6,14 +6,6 @@ import { useEffect, useState } from 'react';
 import { MoviePage } from 'types/movie';
 function Listing() {
 
-    const movie = {
-        "id": 1,
-        "title": "The Witcher",
-        "score": 4.5,
-        "count": 2,
-        "image": "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg"
-    };
-
     //Uso do hook state
 
     const [pageNumber, setPageNumber] = useState(0);
